@@ -1,0 +1,196 @@
+{
+  "config": [
+    {
+      "name": "Logo",
+      "options": [
+        {
+          "type": "text",
+          "key": "logo",
+          "value": "https://unpkg.com/dmego-home-page@latest/assets/img/logo3.jpg",
+          "placeholder": "https://(100*100)"
+        }
+      ]
+    },
+    {
+      "name": "LogoTitle",
+      "options": [
+        {
+          "type": "text",
+          "key": "logoTitle1",
+          "value": "Fighting",
+          "placeholder": "Enter the title"
+        },
+        {
+          "type": "text",
+          "key": "logoTitle2",
+          "value": "突破· 进取",
+          "placeholder": "Enter the title"
+        }
+      ]
+    },
+    {
+      "name": "Name",
+      "options": [
+        {
+          "type": "text",
+          "key": "name",
+          "value": "Pony Blog",
+          "placeholder": "Enter the name"
+        },
+		{
+		  "type": "text",
+		  "key": "nameHref",
+		  "value": "https://www.hipony.com",
+		  "placeholder": "https://"
+		}
+      ]
+    },
+    {
+      "name": "Slogan",
+      "options": [
+        {
+          "type": "text",
+          "key": "slogan",
+          "value": "Life is real, life is earnest.",
+          "placeholder": "Enter the slogan"
+        }
+      ]
+    },
+    {
+      "name": "MenuLink1",
+      "options": [
+        {
+          "type": "text",
+          "key": "menuLinkName1",
+          "value": "Home",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "menuLinkHref2",
+          "value": "https://www.hipony.com",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "MenuLink2",
+      "options": [
+        {
+          "type": "text",
+          "key": "menuLinkName2",
+          "value": "Blog",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "menuLinkHref2",
+          "value": "https://www.hipony.com",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "MenuLink3",
+      "options": [
+        {
+          "type": "text",
+          "key": "menuLinkName3",
+          "value": "Resume",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "menuLinkHref3",
+          "value": "https://www.hipony.com",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "Link4",
+      "options": [
+        {
+          "type": "text",
+          "key": "menuLinkName4",
+          "value": "About",
+          "placeholder": "Enter the name"
+        },
+        {
+          "type": "text",
+          "key": "linkHref4",
+          "value": "https://www.hipony.com",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "SocialLink1",
+      "options": [
+        {
+          "type": "text",
+          "key": "socialLinkLogo1",
+          "value": "github",
+          "placeholder": "Enter the logo name"
+        },
+        {
+          "type": "text",
+          "key": "socialLinkHref1",
+          "value": "https://github.com/xiaoma-",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "SocialLink2",
+      "options": [
+        {
+          "type": "text",
+          "key": "socialLinkLogo2",
+          "value": "cnblogs",
+          "placeholder": "Enter the logo name"
+        },
+        {
+          "type": "text",
+          "key": "socialLinkHref2",
+          "value": "https://github.com/xiaoma-",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "SocialLink3",
+      "options": [
+        {
+          "type": "text",
+          "key": "socialLinkLogo3",
+          "value": "zhihu",
+          "placeholder": "Enter the logo name"
+        },
+        {
+          "type": "text",
+          "key": "socialLinkHref3",
+          "value": "https://github.com/xiaoma-",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "name": "SocialLink4",
+      "options": [
+        {
+          "type": "text",
+          "key": "socialLinkLogo4",
+          "value": "email",
+          "placeholder": "Enter the logo name"
+        },
+        {
+          "type": "text",
+          "key": "socialLinkHref4",
+          "value": "https://github.com/xiaoma-",
+          "placeholder": "https://"
+        }
+      ]
+    }
+  ]
+}
