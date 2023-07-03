@@ -6,7 +6,7 @@
         {
           "type": "text",
           "key": "logo",
-          "value": "https://unpkg.com/dmego-home-page@latest/assets/img/logo3.jpg",
+          "value": "./assets/img/logo3.jpg",
           "placeholder": "https://(100*100)"
         }
       ]
