@@ -67,7 +67,7 @@
         },
         {
           "type": "text",
-          "key": "menuLinkHref2",
+          "key": "menuLinkHref1",
           "value": "https://www.hipony.com",
           "placeholder": "https://"
         }
