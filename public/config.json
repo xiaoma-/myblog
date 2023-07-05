@@ -9,7 +9,8 @@
           "value": "./assets/img/logo3.jpg",
           "placeholder": "https://(100*100)"
         }
-      ]
+      ],
+      "tag":"Basic Info"
     },
     {
       "name": "LogoTitle",
@@ -26,7 +27,8 @@
           "value": "突破· 进取",
           "placeholder": "Enter the title"
         }
-      ]
+      ],
+      "tag":"Basic Info"
     },
     {
       "name": "Name",
@@ -37,13 +39,14 @@
           "value": "Pony Blog",
           "placeholder": "Enter the name"
         },
-		{
-		  "type": "text",
-		  "key": "nameHref",
-		  "value": "https://www.hipony.com",
-		  "placeholder": "https://"
-		}
-      ]
+  {
+    "type": "text",
+    "key": "nameHref",
+    "value": "https://www.hipony.com",
+    "placeholder": "https://"
+  }
+      ],
+      "tag":"Basic Info"
     },
     {
       "name": "Slogan",
@@ -54,7 +57,8 @@
           "value": "Life is real, life is earnest.",
           "placeholder": "Enter the slogan"
         }
-      ]
+      ],
+      "tag":"Basic Info"
     },
     {
       "name": "MenuLink1",
@@ -71,7 +75,8 @@
           "value": "https://www.hipony.com",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Menu Links"
     },
     {
       "name": "MenuLink2",
@@ -88,7 +93,8 @@
           "value": "https://www.hipony.com",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Menu Links"
     },
     {
       "name": "MenuLink3",
@@ -105,10 +111,11 @@
           "value": "https://www.hipony.com",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Menu Links"
     },
     {
-      "name": "Link4",
+      "name": "MenuLink4",
       "options": [
         {
           "type": "text",
@@ -122,7 +129,8 @@
           "value": "https://www.hipony.com",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Menu Links"
     },
     {
       "name": "SocialLink1",
@@ -139,7 +147,8 @@
           "value": "https://github.com/xiaoma-",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Social Links"
     },
     {
       "name": "SocialLink2",
@@ -156,7 +165,8 @@
           "value": "https://github.com/xiaoma-",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Social Links"
     },
     {
       "name": "SocialLink3",
@@ -173,7 +183,8 @@
           "value": "https://github.com/xiaoma-",
           "placeholder": "https://"
         }
-      ]
+      ],
+      "tag":"Social Links"
     },
     {
       "name": "SocialLink4",
@@ -190,7 +201,56 @@
           "value": "https://github.com/xiaoma-",
           "placeholder": "https://"
         }
-      ]
-    }
+      ],
+      "tag":"Social Links"
+    },
+	{
+	   "name": "SocialLink",
+	   "options": [
+		  {
+			  "type":"table",
+			  "key":"socialLinkTable",
+			  "headers": [
+				{
+				  "text": "socialLinkLogo",
+				  "value": "logo"
+				},
+				{
+				  "text": "socialLinkHref",
+				  "value": "link"
+				}
+			  ],
+			  "items": [
+				{"name": "ipns1-26", "ipns": "k51qzi5uqu5dkeq7o4lll1oo8gilnujbx2vhnta6xvxlf21ralvul6lkht59hi"}
+			  ],
+			  "maxLength": 100
+		  }
+	   ],
+	   "tag":"Social Links"
+	},
+	{
+	   "name": "MenuLink",
+	   "options": [
+		  {
+			  "type":"table",
+			  "key":"ipnsResourceTable",
+			  "headers": [
+				{
+				  "text": "menuLinkName",
+				  "value": "name"
+				},
+				{
+				  "text": "menuLinkHref",
+				  "value": "link"
+				}
+			  ],
+			  "items": [
+				{"name": "ipns1-26", "ipns": "k51qzi5uqu5dkeq7o4lll1oo8gilnujbx2vhnta6xvxlf21ralvul6lkht59hi"}
+			  ],
+			  "maxLength": 100
+		  }
+	   ],
+	   "tag":"Menu Links"
+	}
   ]
 }
