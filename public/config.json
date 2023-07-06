@@ -6,7 +6,7 @@
         {
           "type": "text",
           "key": "logo",
-          "value": "./assets/img/logo3.jpg",
+          "value": "./assets/img/logo2.jpg",
           "placeholder": "https://(100*100)"
         }
       ],
@@ -39,14 +39,14 @@
           "value": "Pony Blog",
           "placeholder": "Enter the name"
         },
-  {
-    "type": "text",
-    "key": "nameHref",
-    "value": "https://www.hipony.com",
-    "placeholder": "https://"
-  }
-      ],
-      "tag":"Basic Info"
+		{
+			"type": "text",
+			"key": "nameHref",
+			"value": "https://www.hipony.com",
+			"placeholder": "https://"
+		}
+	  ],
+	  "tag":"Basic Info"
     },
     {
       "name": "Slogan",
@@ -60,150 +60,34 @@
       ],
       "tag":"Basic Info"
     },
-    {
-      "name": "MenuLink1",
-      "options": [
-        {
-          "type": "text",
-          "key": "menuLinkName1",
-          "value": "Home",
-          "placeholder": "Enter the name"
-        },
-        {
-          "type": "text",
-          "key": "menuLinkHref1",
-          "value": "https://www.hipony.com",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Menu Links"
-    },
-    {
-      "name": "MenuLink2",
-      "options": [
-        {
-          "type": "text",
-          "key": "menuLinkName2",
-          "value": "Blog",
-          "placeholder": "Enter the name"
-        },
-        {
-          "type": "text",
-          "key": "menuLinkHref2",
-          "value": "https://www.hipony.com",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Menu Links"
-    },
-    {
-      "name": "MenuLink3",
-      "options": [
-        {
-          "type": "text",
-          "key": "menuLinkName3",
-          "value": "Resume",
-          "placeholder": "Enter the name"
-        },
-        {
-          "type": "text",
-          "key": "menuLinkHref3",
-          "value": "https://www.hipony.com",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Menu Links"
-    },
-    {
-      "name": "MenuLink4",
-      "options": [
-        {
-          "type": "text",
-          "key": "menuLinkName4",
-          "value": "About",
-          "placeholder": "Enter the name"
-        },
-        {
-          "type": "text",
-          "key": "linkHref4",
-          "value": "https://www.hipony.com",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Menu Links"
-    },
-    {
-      "name": "SocialLink1",
-      "options": [
-        {
-          "type": "text",
-          "key": "socialLinkLogo1",
-          "value": "github",
-          "placeholder": "Enter the logo name"
-        },
-        {
-          "type": "text",
-          "key": "socialLinkHref1",
-          "value": "https://github.com/xiaoma-",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Social Links"
-    },
-    {
-      "name": "SocialLink2",
-      "options": [
-        {
-          "type": "text",
-          "key": "socialLinkLogo2",
-          "value": "cnblogs",
-          "placeholder": "Enter the logo name"
-        },
-        {
-          "type": "text",
-          "key": "socialLinkHref2",
-          "value": "https://github.com/xiaoma-",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Social Links"
-    },
-    {
-      "name": "SocialLink3",
-      "options": [
-        {
-          "type": "text",
-          "key": "socialLinkLogo3",
-          "value": "zhihu",
-          "placeholder": "Enter the logo name"
-        },
-        {
-          "type": "text",
-          "key": "socialLinkHref3",
-          "value": "https://github.com/xiaoma-",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Social Links"
-    },
-    {
-      "name": "SocialLink4",
-      "options": [
-        {
-          "type": "text",
-          "key": "socialLinkLogo4",
-          "value": "email",
-          "placeholder": "Enter the logo name"
-        },
-        {
-          "type": "text",
-          "key": "socialLinkHref4",
-          "value": "https://github.com/xiaoma-",
-          "placeholder": "https://"
-        }
-      ],
-      "tag":"Social Links"
-    },
+	{
+	   "name": "MenuLink",
+	   "options": [
+		  {
+			  "type":"table",
+			  "key":"menuLinkTable",
+			  "headers": [
+				{
+				  "text": "menuLinkName",
+				  "value": "name"
+				},
+				{
+				  "text": "menuLinkHref",
+				  "value": "link"
+				}
+			  ],
+			  "items": [
+				{"name": "Home", "link": "https://www.hipony.com"},
+				{"name": "Blog", "link": "https://www.hipony.com"},
+				{"name": "Resume", "link": "https://www.hipony.com"},
+				{"name": "About", "link": "https://www.hipony.com"}
+				
+			  ],
+			  "maxLength": 100
+		  }
+	   ],
+	   "tag":"Menu Links"
+	},
 	{
 	   "name": "SocialLink",
 	   "options": [
@@ -221,36 +105,15 @@
 				}
 			  ],
 			  "items": [
-				{"name": "ipns1-26", "ipns": "k51qzi5uqu5dkeq7o4lll1oo8gilnujbx2vhnta6xvxlf21ralvul6lkht59hi"}
+				{"logo": "github", "link": "https://github.com/xiaoma-"},
+				{"logo": "zhihu", "link": "https://github.com/xiaoma-"},
+				{"logo": "cnblogs", "link": "https://github.com/xiaoma-"},
+				{"logo": "email", "link": "https://github.com/xiaoma-"}
 			  ],
 			  "maxLength": 100
 		  }
 	   ],
 	   "tag":"Social Links"
-	},
-	{
-	   "name": "MenuLink",
-	   "options": [
-		  {
-			  "type":"table",
-			  "key":"ipnsResourceTable",
-			  "headers": [
-				{
-				  "text": "menuLinkName",
-				  "value": "name"
-				},
-				{
-				  "text": "menuLinkHref",
-				  "value": "link"
-				}
-			  ],
-			  "items": [
-				{"name": "ipns1-26", "ipns": "k51qzi5uqu5dkeq7o4lll1oo8gilnujbx2vhnta6xvxlf21ralvul6lkht59hi"}
-			  ],
-			  "maxLength": 100
-		  }
-	   ],
-	   "tag":"Menu Links"
 	}
   ]
 }
