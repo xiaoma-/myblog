@@ -14,6 +14,12 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
     <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
     <link rel="icon" href="./assets/img/favicon.ico">
+	<style>
+		.logo1{
+			margin-top: 15px;
+			width: 30px;
+		}
+	</style>
 </head>
 
 <body>
@@ -140,10 +146,10 @@
 			var li = '<li class="navigation__item"><a href="'+item.name+'" class="blog-button" target="_blank" >'+item.name+'</a></li>'
 			menu.innerHTML += li;
 		})
-		socialLink.forEach((itme) => {
+		socialLink.forEach((item) => {
+			console.log(item)
 			var social = document.getElementById("socialLink");
-			var li = '<li class="navigation__item"><a href="'+itme.link+'"  title="'+itme.logo+'" target="_blank"><i class="social iconfont icon-'+itme.logo+'"></i></a></li>';
-			console.log(li)
+			var li = '<li class="navigation__item"><a href="'+item.link+'" target="_blank"><img class="logo1" src="'+item.logo+'"/></a></li>';
 			social.innerHTML += li;
 		})
 		

@@ -105,10 +105,10 @@
 				}
 			  ],
 			  "items": [
-				{"logo": "github", "link": "https://github.com/xiaoma-"},
-				{"logo": "zhihu", "link": "https://github.com/xiaoma-"},
-				{"logo": "cnblogs", "link": "https://github.com/xiaoma-"},
-				{"logo": "email", "link": "https://github.com/xiaoma-"}
+				{"logo": "./assets/img/github.png", "link": "https://github.com/xiaoma-"},
+				{"logo": "./assets/img/sina.png", "link": "https://github.com/xiaoma-"},
+				{"logo": "./assets/img/facebook.png", "link": "https://github.com/xiaoma-"},
+				{"logo": "./assets/img/telegram.png", "link": "https://github.com/xiaoma-"}
 			  ],
 			  "maxLength": 100
 		  }
